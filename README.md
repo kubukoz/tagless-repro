@@ -25,7 +25,9 @@ Reproduction of an issue with cats-tagless: if you run the code as it is, you sh
 [E]     ... 14 more
 ```
 
-(that's bloop output, but I've been able to reliably get this issue every time running from a native-packager generated script or from sbt). Couldn't get it to fail like that in scastie.
+(that's bloop output, but I've been able to reliably get this issue every time running from a native-packager generated script or from sbt).
+
+Also got a Scastie: https://scastie.scala-lang.org/UqkDN6TERKyoTnLvwwl9vg
 
 Tried OpenJDK 8, 11 and 14, as well as GraalVM 20 (JDK11).
 
